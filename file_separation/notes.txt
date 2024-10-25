@@ -1,0 +1,4 @@
+1. Preprocessing. (Processes lines of code starting with #)
+2. Compilation (Translation to machine code. Each .cpp file gets compiled
+	into its own object (.o) file)
+3. Linking object files into a final executable

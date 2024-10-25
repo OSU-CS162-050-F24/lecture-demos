@@ -1,0 +1,24 @@
+Composition: A "has-a" relationship between data
+	A person "has-a" name
+	A person "has-a" age
+	A directory "has-a" list of people
+
+Composition hierarchy: A description of all of the data types and the
+	data that they're composed of in a program
+
+Coupling: In order to change one piece of code, you have to change
+	one or more other pieces of code
+
+Interface: The part of the component of code that other components of
+	code directly interact with
+
+Our goals w.r.t. coupling:
+1. Reduce coupling
+2. Isolate coupling
+3. Make it so that the components of code that are most likely to
+	need to change are subject to the least amount of coupling
+
+Tools to achieve our goals:
+1. Encapsulation: Co-locating data (variables) and behavior that
+	operates on that data (functions)
+2. Information hiding (classes and objects)
