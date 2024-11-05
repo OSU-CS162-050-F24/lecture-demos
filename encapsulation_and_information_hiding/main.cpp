@@ -12,6 +12,11 @@ int main() {
 	person muhammad;
 	muhammad.initialize("Muhammad", "Ali", 23);
 
+	// john.first_name = "Joe";
+	john.set_first_name("Joe");
+
+	std::cout << john.get_first_name() << std::endl;
+
 	// John is friends with aditya and muhammad
 	friend_list list = create_friend_list(john, 2);
 	list.friends[0] = aditya;
@@ -32,4 +37,6 @@ int main() {
 	// Clean up dynamic memory
 	delete_directory(dir);
 	delete_friend_list(list);
+
+
 }

@@ -16,6 +16,11 @@ private:
 public:
 	void print() const; // Member function of the person class
 	void initialize(std::string first_name, std::string last_name, int age);
+
+	// Accessors and mutators
+	// (Getters and setters)
+	std::string get_first_name() const;
+	void set_first_name(const std::string& first_name);
 };
 
 // 2 things we do with person structures:
