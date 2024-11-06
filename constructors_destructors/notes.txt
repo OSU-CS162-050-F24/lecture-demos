@@ -4,3 +4,8 @@ Constructors: A special member function that's automatically called
 Destructors: A special member function that's automatically called
 	whenever an object is freed from memory. Used to "tear down"
 	the object.
+
+The default constructor for a class or structure type will automatically be
+generated for you by your compiler if and only if you didn't define ANY
+constructors for that class or structure type. These "default default constructors"
+are empty and do nothing.
