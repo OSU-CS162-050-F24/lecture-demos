@@ -4,7 +4,7 @@
 #include <string>
 
 class pet {
-private:
+protected:
 	std::string name = "Spot";
 	const std::string species = "Dog";
 	const int year_born = 2020;
