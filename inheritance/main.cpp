@@ -17,7 +17,7 @@ int main() {
 	// This is referred to as upcasting
 	// Object slicing is when an object loses its derived-class information
 	// during upcasting.
-	pet p2 = d;
+	pet p2 = d; // Upcasting
 	p2.print_info();
 	
 	std::cout << std::endl;

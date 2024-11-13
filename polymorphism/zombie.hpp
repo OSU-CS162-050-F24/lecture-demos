@@ -7,7 +7,7 @@ class zombie : public monster {
 public:
 	zombie();
 
-	void do_turn(player& p);
+	void do_turn(player& p); // Override
 };
 
 #endif
