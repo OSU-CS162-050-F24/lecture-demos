@@ -12,7 +12,7 @@
 
 void do_turn(monster** monsters, int n_monsters, player& p) {
 	for (int i = 0; i < n_monsters; i++) {
-		// Binding: When your compiler decides what function should
+		// Binding: When your computer decides what function should
 		// be invoked according to a specific function call
 		
 		// Static binding. Default binding method. This is when, at
@@ -54,8 +54,10 @@ int main() {
 		std::cout << std::endl;
 	}
 
+	monster* copy_of_first_monster = monsters[0]->clone();
+
 	for (int i = 0; i < n_monsters; i++) {
-		// delete monsters[i];
+		delete monsters[i]; // Static type: monster*
 	}
 	delete [] monsters;
 }

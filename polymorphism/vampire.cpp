@@ -12,3 +12,9 @@ void vampire::do_turn(player& p) {
 	p.take_damage(2);
 	this->hp += 1;
 }
+
+monster* vampire::clone() {
+	vampire* new_vampire = new vampire;
+	new_vampire->hp = this->hp;
+	return new_vampire;
+}

@@ -7,7 +7,9 @@ class vampire : public monster {
 public:
 	vampire();
 
-	void do_turn(player& p); // Override
+	void do_turn(player& p) override; // Override
+
+	monster* clone() override; // Override
 };
 
 #endif
