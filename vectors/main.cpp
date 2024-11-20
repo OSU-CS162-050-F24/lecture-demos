@@ -26,4 +26,13 @@ int main() {
 	for (int i = 0; i < my_list.size(); i++) {
 		std::cout << my_list.at(i) << std::endl;
 	}
+
+	std::cout << my_list.capacity() << std::endl;
+
+	my_list.reserve(100);
+
+	// 2D vector example:
+	//std::vector<std::vector<room>> cave;
+	//std::vector<room> row(10);
+	//cave.push_back(row);
 }
