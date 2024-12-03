@@ -1,0 +1,21 @@
+Task: Sort a list of N integers
+
+You have to choose an algorithm. Ideal: Try them all! In practice, we can't
+try all of them. So instead, we've found ways to DESCRIBE the properties
+(runtime, space) of algorithms so that we can compare them without testing them.
+
+Describing runtime in a meaningful way is difficult.
+
+It takes insertion sort 0.01 * N^2 seconds on some particular piece of hardware
+with some very particular unsorted list.
+
+Complexity analysis very LOOSELY is used to describe these properties.
+More specifically, complexities measure rates of growth.
+
+"Insertion sort performs a certain number of operations that is proportional to N^2"
+
+
+
+We'll measure two kinds of complexities:
+- Runtime complexity
+- Space complexity
