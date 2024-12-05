@@ -72,6 +72,8 @@ int main() {
 	// O(n): Linear complexity
 	// O(n^2): Quadratic complexity
 	// O(n log(n)): Linearithmic complexity
+	//
+	// O(n log(n)) is bigger than O(n) but smaller than O(n^2)
 	
 	// In CS 162, when measuring complexities, measure in the "worst case"
 	
